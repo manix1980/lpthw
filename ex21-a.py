@@ -21,7 +21,7 @@ def formula():
     c = int(input("c = "))
     d = int(input("d = "))
     print(f"FORMULATING {a} + {b} / {c} - {d}")
-    return a + b ** c ** d
+    return a + b * c / d
 
 result = formula()
 

@@ -7,4 +7,4 @@ filename = input(" >" )
 # print out hte name of the file object
 print(f"Here's your file {filename}:")
 # open the filename by calling the read method of the txt object
-print(f{filename})
+print(filename)
