@@ -1,12 +1,12 @@
-people = 20
-cats = 30
-dogs = 15
+people = 100
+cats = 101
+dogs = 151
 
 
-if people < cats:
+if people <= cats:
     print("Too many cats! The world is doomed!")
 
-if people > cats:
+if people >= cats:
     print("Not many cats! The world is saved!")
 
 if people < dogs:
