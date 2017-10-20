@@ -1,21 +1,37 @@
-i = 0
-numbers = []
+def numbers_in_while(max):
+    i = 0
+    numbers = []
 
-while i < 6:
-    print(f"At the top i is {i}")
-    numbers.append(i)
+    while i < max:
+        print(f"At the tops i is {i}")
+        numbers.append(i)
+        i = i + 1
 
-    i = i + 1
-    print("Numbers now: ", numbers)
-    print(f"At the bottom i is {i}")
-
-
-print("The numbers: ")
-
-for num in numbers:
-    print(num)
+        print("Numbers now: ", numbers)
+        print(f"At the bottom i is {i}")
 
 
+    print("The Numbers using a while loop: ")
 
-def number_range():
-    
+    for num in numbers:
+        print (num)
+
+def numbers_in_for():
+    numbers = []
+
+    for i in range(0, 10):
+        print(f"At the top i is {i}")
+        numbers.append(i)
+        i = i + 1
+
+        print("Numbers now: ", numbers)
+        print(f"At the bottom i is {i}")
+
+    print("The Numbers using a for loop")
+
+    for num in numbers:
+        print (num)
+
+
+#numbers_in_while(10)
+numbers_in_for()
