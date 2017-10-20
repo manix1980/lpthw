@@ -33,5 +33,5 @@ def numbers_in_for():
         print (num)
 
 
-#numbers_in_while(10)
+numbers_in_while(10)
 numbers_in_for()
