@@ -32,6 +32,7 @@ def heaven():
         print("Hes outta here...")
         print("God will be happy and the barman has gone to get some more barrels!")
         exit(0)
+        
     elif pints >= 20 and pints <= 50:
         print("God is pissed but still not happy")
         game_over("Close, but not Enough Pints")
